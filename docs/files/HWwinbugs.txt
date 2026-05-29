@@ -1,0 +1,40 @@
+#
+# Model for Hardy-Weinberg data in which we have genotypes corresponding to k alleles - 
+# we have k parameters, k-1 distinct allele probs q and an inbreeding coefficient f.
+# We have a dirichlet prior on q. f is constrained to be > fmin =  -qmin/(1-qmin) where qmin
+# is the minimum of q[1],...,q[k].
+# 
+#
+model{
+# genotype frequencies, q's are allele freqs, f is the common inbreeding coeff
+	for (i in 1:k){
+		for(j in 1:i){
+			p[i*(i-1)/2+j] <- equals(i,j)*(q[i]*q[i] + f*q[i]*(1-q[i])) + (1-equals(i,j))*2*q[i]*q[j]*(1-f)
+		}
+	}
+# likelihood
+    N <- sum(n[])
+#	ncell <- k*(k+1)/2
+	n[1:ncell] ~ dmulti(p[],N)
+# priors
+	for (i in 1:k){
+		q[i]  <- delta[i]/sum(delta[])
+		delta[i] ~ dgamma(1,1)
+	}
+    qmin <- ranked(q[],1)
+    fmin <- -qmin/(1-qmin)
+    lambda ~ dnorm(lambdamu,lambdasd)
+	f <- (exp(lambda)+fmin)/(exp(lambda)+1)
+	for (i in 1:k-1){
+     	theta[i] <- log(q[i]/q[k])
+	}
+	theta[k] <-  log((f-fmin)/(1-f))
+}
+# Data is in the order n11, n21, n22, n31, n32, ..., nkk
+list(n=c(5,6,1,7,11,2,8,19,26,15),k=4,ncell=10,lambdamu=-1,lambdasd=1)
+list(n=c(49,45,6),k=2,ncell=3,lambdamu=-1,lambdasd=1)
+list(delta=c(.25,.25),lambda=0)
+list(n=c(0,3,1,5,18,1,3,7,5,2),k=4,ncell=10,lambdamu=-2.95,lambdasd=1.07)
+list(delta=c(.25,.25,.25,.25),lambda=0.5)
+list(n=c(1236,120,3,18,0,0,982,55,7,249,32,1,0,12,0,2582,132,20,1162,29,1312,6,0,0,4,0,4,0,2,0,0,0,0,0,0,0,115,5,2,53,1,149,0,0,4),k=9,ncell=45,lambdamu=-4.65,lambdasd=0.21)  # orig for 0,0.27 were lambdamu=-4.95, lambdasd=2.09
+list(delta=c(1,1,1,1,1,1,1,1,1),lambda=0.0)

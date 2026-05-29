@@ -1,0 +1,363 @@
+/* ===========================================================
+   Classic academic palette — deep navy + warm sand
+   =========================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+
+:root {
+  --wf-navy: #1F2A44;
+  --wf-navy-deep: #16203A;
+  --wf-navy-soft: #2C3A5C;
+  --wf-sand: #C6A664;
+  --wf-sand-soft: #E2CFA1;
+  --wf-ink: #1A1F2C;
+  --wf-paper: #FBFAF6;
+  --wf-rule: #E6E1D4;
+}
+
+/* Light scheme */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        var(--wf-navy);
+  --md-primary-fg-color--light: var(--wf-navy-soft);
+  --md-primary-fg-color--dark:  var(--wf-navy-deep);
+  --md-primary-bg-color:        #FFFFFF;
+  --md-primary-bg-color--light: #FFFFFFCC;
+
+  --md-accent-fg-color:         #8C7235;
+  --md-accent-fg-color--transparent: rgba(198, 166, 100, 0.12);
+  --md-accent-bg-color:         #FFFFFF;
+
+  --md-default-bg-color:        var(--wf-paper);
+  --md-typeset-color:           var(--wf-ink);
+  --md-typeset-a-color:         var(--wf-navy);
+
+  --md-footer-bg-color:         var(--wf-navy-deep);
+  --md-footer-bg-color--dark:   #0F1626;
+}
+
+/* Dark scheme */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        var(--wf-navy-deep);
+  --md-primary-fg-color--light: var(--wf-navy);
+  --md-primary-fg-color--dark:  #0F1626;
+
+  --md-accent-fg-color:         var(--wf-sand);
+  --md-accent-fg-color--transparent: rgba(198, 166, 100, 0.18);
+
+  --md-typeset-a-color:         var(--wf-sand-soft);
+
+  --md-default-bg-color:        #14182A;
+}
+
+/* ===========================================================
+   Typography — Merriweather for headings, Inter for body
+   =========================================================== */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-header__title,
+.md-nav__title {
+  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+
+.md-typeset h1 {
+  font-size: 2.1rem;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+  color: var(--wf-navy);
+}
+[data-md-color-scheme="slate"] .md-typeset h1 { color: var(--wf-sand-soft); }
+
+.md-typeset h2 {
+  font-size: 1.45rem;
+  margin-top: 2.2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--wf-rule);
+}
+[data-md-color-scheme="slate"] .md-typeset h2 { border-bottom-color: #2A3550; }
+
+.md-typeset h3 {
+  font-size: 1.15rem;
+  margin-top: 1.6rem;
+}
+
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+.md-typeset a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+.md-typeset a:hover {
+  border-bottom-color: var(--wf-sand);
+  color: var(--md-accent-fg-color);
+}
+
+/* Header refinements */
+.md-header {
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05), 0 2px 8px rgba(0,0,0,0.04);
+}
+.md-header__title {
+  font-size: 1.05rem;
+}
+
+/* Tab labels */
+.md-tabs__link {
+  font-size: 0.78rem;
+  opacity: 0.85;
+}
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
+}
+
+/* ===========================================================
+   Home page hero card
+   =========================================================== */
+
+.wf-hero {
+  display: grid;
+  grid-template-columns: minmax(220px, 290px) 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 1.5rem 0 2rem;
+  border-bottom: 1px solid var(--wf-rule);
+  margin-bottom: 2rem;
+}
+[data-md-color-scheme="slate"] .wf-hero { border-bottom-color: #2A3550; }
+
+.wf-hero__portrait img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(31, 42, 68, 0.18),
+              0 1px 3px rgba(31, 42, 68, 0.10);
+  display: block;
+}
+
+.wf-hero__body h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2.3rem;
+  line-height: 1.15;
+}
+.wf-hero__title {
+  font-size: 1.0rem;
+  color: var(--wf-navy-soft);
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+[data-md-color-scheme="slate"] .wf-hero__title { color: var(--wf-sand-soft); }
+
+.wf-hero__meta {
+  font-size: 0.78rem;
+  line-height: 1.7;
+  color: var(--wf-ink);
+  opacity: 0.85;
+  margin: 0;
+}
+[data-md-color-scheme="slate"] .wf-hero__meta { color: #CBD0DE; }
+
+.wf-hero__meta strong {
+  font-weight: 600;
+  color: var(--wf-navy);
+}
+[data-md-color-scheme="slate"] .wf-hero__meta strong { color: var(--wf-sand-soft); }
+
+@media (max-width: 720px) {
+  .wf-hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .wf-hero__portrait {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+}
+
+/* Quick-link grid on home */
+.wf-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 1.2rem 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+.wf-links li { list-style: none; margin: 0; }
+.wf-links a {
+  display: block;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--wf-rule);
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: var(--wf-navy) !important;
+  font-weight: 500;
+  font-size: 0.82rem;
+  transition: all 140ms ease;
+  border-bottom: 1px solid var(--wf-rule) !important;
+}
+[data-md-color-scheme="slate"] .wf-links a {
+  background: #1B2138;
+  border-color: #2A3550 !important;
+  color: var(--wf-sand-soft) !important;
+}
+.wf-links a:hover {
+  border-color: var(--wf-sand) !important;
+  box-shadow: 0 4px 14px rgba(31, 42, 68, 0.08);
+  transform: translateY(-1px);
+}
+
+/* ===========================================================
+   People grid
+   =========================================================== */
+
+.md-typeset .wf-people,
+.wf-people {
+  display: flex !important;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1.25rem 0 2rem;
+  padding: 0 !important;
+  list-style: none !important;
+  width: 100%;
+}
+.md-typeset .wf-people li,
+.wf-people li {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.md-typeset .wf-people li::before,
+.wf-people li::before {
+  content: none !important;
+}
+
+.wf-person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  gap: 1.1rem;
+  width: 100%;
+}
+.wf-person__photo {
+  width: 120px;
+  height: 120px;
+  flex: 0 0 120px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  background: #EEE9DA;
+  box-shadow: 0 3px 10px rgba(31, 42, 68, 0.10);
+  display: block;
+}
+.wf-person__text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: left;
+}
+.wf-person__name {
+  margin: 0;
+  text-align: left;
+  line-height: 1.4;
+  display: inline;
+}
+.wf-person__name::after {
+  content: " —";
+  color: var(--wf-sand);
+  font-weight: 400;
+  margin-left: 0.1rem;
+}
+.wf-person__role {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  line-height: 1.4;
+  display: inline;
+}
+.wf-person__name {
+  margin: 0.7rem 0 0.15rem;
+  font-family: "Merriweather", Georgia, serif;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--wf-navy);
+  line-height: 1.25;
+}
+[data-md-color-scheme="slate"] .wf-person__name { color: var(--wf-sand-soft); }
+
+.wf-person__role {
+  font-size: 0.74rem;
+  line-height: 1.4;
+  color: var(--wf-ink);
+  opacity: 0.78;
+  padding: 0 0.2rem;
+}
+[data-md-color-scheme="slate"] .wf-person__role { color: #BFC4D2; }
+
+/* ===========================================================
+   Misc polish
+   =========================================================== */
+
+/* Soften code/inline pills */
+.md-typeset code {
+  background: rgba(198, 166, 100, 0.14);
+  color: var(--wf-navy);
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+}
+[data-md-color-scheme="slate"] .md-typeset code {
+  background: rgba(198, 166, 100, 0.18);
+  color: var(--wf-sand-soft);
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  font-size: 0.78rem;
+  border: 1px solid var(--wf-rule);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.md-typeset table:not([class]) th {
+  background: var(--wf-navy);
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+/* Footer */
+.md-footer-meta {
+  background: var(--wf-navy-deep);
+}
+
+/* Numbered list spacing on People page */
+.md-typeset ol li { margin-bottom: 0.6rem; }
+
+/* ===========================================================
+   Hide left navigation sidebar (top tabs already cover nav)
+   =========================================================== */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+  .md-main__inner {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .md-content {
+    max-width: 56rem;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,59 @@
+## Model: there are 2 strata with name Y1 to Y2, and population size N1 and N2
+## each group has its own endemic component
+model {	
+     for (i in 1:I) {
+          for (t in 2:T) {		
+               ## likelihood
+               Y1[i, t] ~ dpois(mu1[i, t])
+               Y2[i, t] ~ dpois(mu2[i, t])
+
+               ## decomposition of mu
+               mu1[i, t] <- exp(beta1*x[i, t])*f1.epi[i, t] + f.nei[i, t] + f1.end[i, t]
+               mu2[i, t] <- exp(beta1*x[i, t])*f2.epi[i, t] + f.nei[i, t] + f2.end[i, t]
+
+              ## AR component
+              f1.epi[i, t] <- lambda[1,1]* Y1[i, t-1] + lambda[1,2]*Y2[i, t-1] 
+              f2.epi[i, t] <- lambda[2,1]* Y1[i, t-1] + lambda[2,2]*Y2[i, t-1] 
+
+              ## neighorhood component
+              f.nei[i, t] <- exp(alphanei + b.nei[i]) * Ysumnei[i, t]
+
+             ## endemic component
+             f1.end[i, t] <- N1[i]*exp(alphaend[1] + b.end[i] + beta.sin[1]*sin[t] + beta.cos[1]*cos[t])
+             f2.end[i, t] <- N2[i]*exp(alphaend[2] + b.end[i] + beta.sin[2]*sin[t] + beta.cos[2]*cos[t])
+                          }
+                   }
+
+            ## random effects: all follow IID normal
+     for (i in 1:I) {
+             b.ar[i] ~ dnorm(0, tau.ar)
+             b.nei[i] ~ dnorm(0, tau.nei)
+             b.end[i] ~ dnorm(0, tau.end)
+                       }
+
+            ## priors
+            beta1 ~ dnorm(0.0,1.0E-4)	
+            alphanei ~ dnorm(0.0,1.0E-4)
+     for (j in 1:2) {	
+            alphaend[j] ~ dnorm(0.0,1.0E-4)
+            beta.sin[j] ~ dnorm(0.0, 1.0E-4)
+            beta.cos[j] ~ dnorm(0.0,1.0E-4)
+                        }
+
+    tau.ar <- 1/(sigmaar * sigmaar)
+    tau.nei <- 1/(sigmanei * sigmanei)
+    tau.end <- 1/(sigmaend * sigmaend)
+
+    sigmaar ~ dunif(0, 100)
+    sigmanei ~ dunif(0, 100)
+    sigmaend ~ dunif(0, 100)
+
+    delta[1,1] ~ dnorm(0.0, 0.01)
+    delta[1,2] ~ dnorm(0.0, 0.01)
+    delta[2,1] ~ dnorm(0.0, 0.01)
+    delta[2,2] ~ dnorm(0.0, 0.01)
+    log(lambda[1,1]) <- delta[1,1]
+    log(lambda[1,2]) <- delta[1,2]
+    log(lambda[2,1]) <- delta[2,1]
+    log(lambda[2,2]) <- delta[2,2] 
+ }

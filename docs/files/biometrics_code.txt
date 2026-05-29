@@ -1,0 +1,40 @@
+model {
+	for (i in 1:N) {
+		for (j in 1:M) {
+# partition-specific measurement errors
+			Y[i,j] ~ dnorm(mu[i,j], tau.e[z[i]])
+			mu[i,j] <- b[i] + theta[z[i],j]
+		}
+# partition-specific variance on random effects 
+		b[i] ~ dnorm(0, tau.b[z[i]])
+# latent partition labels, no attempt to re-label 
+		z[i] ~ dcat(w[])
+	}
+# AR(1) model for mean trajectories with fixed number of partitions K
+	for (k in 1:K) {
+		# within trajectory variation
+		tau[k] ~ dgamma(alpha, beta)
+		# first time points
+		theta[k,1] ~ dnorm(0.0, tau.t1)
+		for (j in 2:M) {
+# variance depends on distance between adjacent time points
+			tau.theta[k,j-1] <- tau[k]/(x[j]-x[j-1])
+			theta[k,j] ~ dnorm(theta[k,j-1], tau.theta[k,j-1])
+		}
+# priors on measurement error and random effects
+		tau.e[k] ~ dgamma(0.001, 0.001) # Not the brightest
+		tau.b[k] ~ dgamma(0.001, 0.001) # priors in the world...
+	}
+# Dirichlet prior on mixing proportions
+	w[1:K] ~ ddirch(delta[])
+# Again, gamma prior could be improved
+	tau.t1 ~ dgamma(0.001, 0.001)
+	alpha <- 0.01
+	beta <- 0.01
+	for (k in 1:K) {
+		delta[k] <- 1.0   
+	}
+}	
+	
+	
+	

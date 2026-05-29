@@ -1,0 +1,86 @@
+model
+{
+for( i in 1 : NG ) {
+     for( j in 1 : TG ) {
+      YG[i , j] ~ dnorm(muG[i , j],eps.tau)
+      muG[i , j] <- betaG[i,1] + betaG[i,2] * (xG[j]-11)
+      }
+      betaG[i,1:2] ~ dmnorm(beta.muG[1:2],iSigma[1:2,1:2])
+}
+for( i in 1 : NB ) {
+     for( j in 1 : TB ) {
+      YB[i , j] ~ dnorm(muB[i , j],eps.tau)
+      muB[i , j] <- betaB[i,1] + betaB[i,2] * (xB[j]-11)
+      }
+      betaB[i,1:2] ~ dmnorm(beta.muB[1:2],iSigma[1:2,1:2])
+}
+beta.muG[1:2] ~ dmnorm(meanG[1:2], precG[1:2, 1:2])
+iSigma[1:2, 1:2] ~ dwish(R[1:2, 1:2], r)
+Sigma[1:2, 1:2] <- inverse(iSigma[1:2, 1:2])
+sd0 <- sqrt(Sigma[1,1])
+sd1 <- sqrt(Sigma[2,2])
+corr <- Sigma[1,2]/sqrt(Sigma[1,1]*Sigma[2,2])
+
+eps.tau <- exp(logtau)
+logtau ~ dflat()
+sigma <- 1 / sqrt(eps.tau)
+
+beta.muB[1:2] ~ dmnorm(meanB[1:2], precB[1:2, 1:2])
+
+beta0BG <- beta.muB[1]-beta.muG[1]
+beta1BG <- beta.muB[2]-beta.muG[2]
+}
+list(xG = c(8,10,12,14), NG = 11, TG = 4,
+xB = c(8,10,12,14), NB = 16, TB = 4,
+YG = structure(
+.Data =   c(21,20,21.5,23,
+21,NA,NA,NA,
+            20.5,24,24.5,NA,
+            23.5,24.5,NA,NA,
+            21.5,23,22.5,NA,
+            20,21,NA,NA,
+            21.5,NA,NA,NA,
+            23,NA,NA,NA,
+            20,NA,NA,NA,
+            16.5,19,19,19.5,
+24.5,25,28,NA),
+.Dim = c(11,4)),meanG = c(0, 0),r=4,
+R = structure(.Data = c(1, 0, 0,0.1),
+.Dim = c(2, 2)),
+precG = structure(.Data = c(1.0E-6, 0,0,1.0E-6),
+.Dim = c(2, 2) ),
+YB = structure(
+.Data =   c(
+26.0,NA,NA,NA,
+21.5,22.5,NA,NA,
+23.0,22.5,24.0,NA,
+25.5,NA,NA,NA,
+20.0,23.5,22.5,NA,
+24.5,25.5,27.0,NA,
+22.0,22.0,24.5,26.5,
+24.0,21.5,NA,NA,
+23.0,20.5,31.0,NA,
+27.5,28.0,31.0,31.5,
+23.0,NA,NA,NA,
+21.5,23.5,24.0,NA,
+17.0,NA,NA,NA,
+22.5,25.5,25.5,NA,
+23.0,NA,NA,NA,
+22.0,21.5,23.5,25.0),
+.Dim = c(16,4)),meanB = c(0, 0),
+precB = structure(.Data = c(1.0E-6, 0,0,1.0E-6),
+.Dim = c(2, 2)))
+
+
+list(betaG = structure(
+        .Data = c(18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5),
+        .Dim = c(11, 2)),
+        beta.muG = c(18, .5),
+        iSigma = structure(.Data = c(1, 0, 0,1), .Dim = c(2, 2)),
+        betaB = structure(
+        .Data = c(18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5,18,.5),
+        .Dim = c(16, 2)),
+        beta.muB = c(18, .5),
+        logtau = 0)
+
+
