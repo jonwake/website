@@ -1,7 +1,7 @@
 site_name: Jon Wakefield
 site_description: Faculty page of Jonathan Wakefield, Professor of Statistics and Biostatistics, University of Washington.
 site_author: Jon Wakefield
-site_url: https://example.com/
+site_url: https://jonwake.github.io/website/
 
 theme:
   name: material
