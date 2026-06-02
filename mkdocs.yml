@@ -39,7 +39,9 @@ nav:
   - Research: research.md
   - People: people.md
   - Software: software.md
-  - Teaching: teaching.md
+  - Teaching: 
+    - Teaching: teaching.md
+    - SAE Teaching: teaching-SAE-course.md
   - Impact: spatial-demography.md
   - Personal: personal.md
 
