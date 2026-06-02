@@ -1,5 +1,9 @@
 # Teaching
 
+## SAE Course 
+
+[SAE Course Materials](teaching-SAE-course.md)
+
 ## Courses
 
 - BIOSTAT 512 Medical Biometry II
