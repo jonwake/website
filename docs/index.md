@@ -16,7 +16,7 @@ hide:
 
 <p class="wf-hero__meta" markdown>
 **Departments** &nbsp; Statistics · Biostatistics &nbsp;|&nbsp; **University of Washington, Seattle**<br>
-**Find me on** &nbsp; [Google Scholar](https://scholar.google.com/citations?user=mYyRi8sAAAAJ&hl=en) · [arXiv](https://arxiv.org/search/stat?searchtype=author&query=Wakefield,+J)
+**Find me on** &nbsp; [Google Scholar](https://scholar.google.ca/citations?hl=en&user=bM2nnC8AAAAJ) · [arXiv](https://arxiv.org/search/stat?searchtype=author&query=Wakefield,+J)
 </p>
 
 </div>

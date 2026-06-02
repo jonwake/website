@@ -1,6 +1,6 @@
 # Research Interests
 
-[Google Scholar version of my publications](http://scholar.google.com/citations?user=mYyRi8sAAAAJ&hl=en).
+[Google Scholar version of my publications](https://scholar.google.ca/citations?hl=en&user=bM2nnC8AAAAJ).
 
 
 I am a statistician with interests in:
