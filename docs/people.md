@@ -32,7 +32,7 @@
 </div>
 </li>
 <li class="wf-person" markdown>
-<img class="wf-person__photo" src="../images/photos/AdiPhoto.jpg" alt="Adi Cohen" />
+<img class="wf-person__photo" src="../images/photos/AdiPhoto.jpg" alt="Adi Cohen" style="object-position: center 25%;" />
 <div class="wf-person__text" markdown>
 <div class="wf-person__name">Adi Cohen</div>
 <div class="wf-person__role">PhD student, Statistics</div>
@@ -42,6 +42,13 @@
 <img class="wf-person__photo" src="../images/photos/PaigePhoto.jpeg" alt="Paige Tomer" />
 <div class="wf-person__text" markdown>
 <div class="wf-person__name">Paige Tomer</div>
+<div class="wf-person__role">PhD student, Biostatistics</div>
+</div>
+</li>
+<li class="wf-person" markdown>
+<img class="wf-person__photo" src="../images/photos/WillowPhoto.jpeg" alt="Willow Crawford-Crudell" style="object-position: center 35%;" />
+<div class="wf-person__text" markdown>
+<div class="wf-person__name">Willow Crawford-Crudell</div>
 <div class="wf-person__role">PhD student, Biostatistics</div>
 </div>
 </li>
