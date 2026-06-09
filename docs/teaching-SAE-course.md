@@ -8,4 +8,7 @@ Small area estimation is of crucial importance in low- and middle-income countri
 - Area-Level Models [Slides](files/SAE-files/SAE-Area-Level-Models.pdf)
 
 Software:
+
 [surveyPrev](https://cran.r-project.org/web/packages/surveyPrev/index.html)
+
+[SUMMER](https://cran.r-project.org/web/packages/SUMMER/index.html)
