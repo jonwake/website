@@ -12,3 +12,10 @@ Software:
 [surveyPrev](https://cran.r-project.org/web/packages/surveyPrev/index.html)
 
 [SUMMER](https://cran.r-project.org/web/packages/SUMMER/index.html)
+
+Papers:
+
+[Wakefield, Fuglstad, Riebler, Godwin, Wilson, Clark (2019). Estimating under-five mortality in space
+and time in a developing world context. SMMR, 28, 2614-2634](files/SAE-files/wakefieldetal19.pdf)
+
+[Wakefield, Ononek, Pedersen (2020). Small Area Estimation for disease prevalence mapping. International Statistical Review, 88, 398-418](files/SAE-files/wakefieldokonekpedersen20.pdf)
