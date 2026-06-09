@@ -11,7 +11,7 @@ Small area estimation is of crucial importance in low- and middle-income countri
 
 [surveyPrev](https://cran.r-project.org/web/packages/surveyPrev/index.html) with [vignette on prevalence mapping](https://cran.r-project.org/web/packages/surveyPrev/vignettes/vignette-main.html) and [vignette on creating indicators](https://cran.r-project.org/web/packages/surveyPrev/vignettes/vignette-data-preparation.html)
 
-[SUMMER](https://cran.r-project.org/web/packages/SUMMER/index.html)
+[SUMMER](https://cran.r-project.org/web/packages/SUMMER/index.html) Vignettes available at this site
 
 *DHS Data:*
 
