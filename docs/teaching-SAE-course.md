@@ -7,7 +7,7 @@ Small area estimation is of crucial importance in low- and middle-income countri
 - Context and Motivation [Slides](files/SAE-files/SAE-Motivation.pdf)
 - Area-Level Models [Slides](files/SAE-files/SAE-Area-Level-Models.pdf)
 
-*Software:*
+*R Packages:*
 
 [surveyPrev](https://cran.r-project.org/web/packages/surveyPrev/index.html) with [vignette on prevalence mapping](https://cran.r-project.org/web/packages/surveyPrev/vignettes/vignette-main.html) and [vignette on creating indicators](https://cran.r-project.org/web/packages/surveyPrev/vignettes/vignette-data-preparation.html)
 
@@ -19,10 +19,20 @@ Demographic and Heath Surveys (DHS) data can be downloaded, after registering fo
 
 When requesting specific datasets, remember to request the GPS data (locations of clusters)
 
+*Web Apps*
+
+[DHS R Shiny App](https://rsc.stat.washington.edu/sae4health/)
+
+[MICS R Shiny App (beta test version)](https://rsc.stat.washington.edu/app_direct/sae4mics/) 
+
+[Pre-modeled App](https://sae4lmic.stat.uw.edu/) 
+
 *Papers:*
 
 [Wakefield, Fuglstad, Riebler, Godwin, Wilson, Clark (2019). Estimating under-five mortality in space
 and time in a developing world context. SMMR, 28, 2614-2634](files/SAE-files/wakefieldetal19.pdf)
 
 [Wakefield, Ononek, Pedersen (2020). Small Area Estimation for disease prevalence mapping. International Statistical Review, 88, 398-418](files/SAE-files/wakefieldokonekpedersen20.pdf)
+
+[Additional Materials](https://sae4health.stat.uw.edu/)
 
