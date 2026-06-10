@@ -6,6 +6,7 @@ Small area estimation is of crucial importance in low- and middle-income countri
 
 - Context and Motivation [Slides](files/SAE-files/SAE-Motivation.pdf)
 - Area-Level Models [Slides](files/SAE-files/SAE-Area-Level-Models.pdf)
+- Introduction to Bayes [Slides](files/SAE-files/SAE-Bayes.pdf)
 
 *R Packages:*
 
