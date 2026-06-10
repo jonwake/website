@@ -2,10 +2,10 @@
 
 ## United Nations Subnational Under-five Mortality Estimates, 1990–2019
 
-- In close coordination with the United Nations Inter-agency Group for Mortality Estimation (UN IGME) we have produced [subnational estimates](https://childmortality.org/all-cause-mortality/analysis/).
+- In close coordination with the United Nations Inter-agency Group for Mortality Estimation (UN IGME) we have produced [subnational estimates](https://childmortality.org/all-cause-mortality/analysis/)
 - The team was led by Jon Wakefield and Jessica Godwin and included Zehang Richard Li, Julianne Meisner, Taylor Okonek, Johnny Paige, Peter Gao, Geir-Arne Fuglstad, Miranda Fix, Andrea Riebler, Sam Clark, Tracy Dong, Yunhan Wu, Ziyu Jiang, Orvalho Augusto, Serge Aleshin-Guendel, Avi Kenny and Yue Chu. Valuable input was given by Lucia Hug, Danzhen You and Dave Sharrow of UN IGME and the UN IGME Technical Advisory Group (TAG), in particular Jon Pedersen, Trevor Croft and Patrick Gerland.
 - The methods are described in the brochure that can be downloaded from [here](https://data.unicef.org/resources/subnational-under-five-mortality-estimates-1990-2019/) and in the papers below, in particular Wakefield et al. (2019) and Wakefield, Okonek and Pedersen (2020).
-- The estimates were obtained using the SUMMER package, available at CRAN: [SUMMER](https://cran.r-project.org/web/packages/SUMMER/index.html).
+- The estimates were obtained using the SUMMER package, available at CRAN: [SUMMER](https://cran.r-project.org/web/packages/SUMMER/index.html)
 
 ## WHO Excess Mortality during the Pandemic
 
