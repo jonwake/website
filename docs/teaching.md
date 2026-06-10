@@ -4,20 +4,6 @@
 
 [SAE Course Materials](teaching-SAE-course.md)
 
-## Lectures and Short Courses
-
-Lectures by Jon Wakefield and Richard Zehang Li on "Bayesian Subnational Estimation using Complex Survey Data":
-
-- Videos can be found [here](https://www.youtube.com/channel/UCV1SeTE9Qyk2_bhGBzSNZIg).
-- Lecture 1 (Jon): Overview, Motivation and Survey Sampling — [Slides](files/AV-SurveySampling.pdf).
-- Lecture 2 (Jon): Bayesian Inference and Smoothing Models — [Slides](files/AV-Smoothing.pdf).
-- Lecture 3 (Jon): Spatial Models for Survey Data — [Slides](files/AV-SAE.pdf).
-- Lecture 4 (Richard): Introduction to R — [Overview](https://zehangli.com/Subnational/RSession-1.pdf), [Analysis](https://zehangli.com/Subnational/RSession-1.html), [Codes](https://zehangli.com/Subnational/RSession-1.R).
-- Lecture 5 (Richard): Space-time Smoothing in R — [Overview](https://zehangli.com/Subnational/RSession-2.pdf), [Analysis](https://zehangli.com/Subnational/RSession-2.html), [Codes](https://zehangli.com/Subnational/RSession-2.R).
-- Lecture 6 (Richard): Case Study — Kenya 2014 DHS — [Overview](https://zehangli.com/Subnational/RSession-3.pdf), [Analysis](https://zehangli.com/Subnational/RSession-3.html), [Codes](https://zehangli.com/Subnational/RSession-3.R).
-
-Materials from a short course Jon gave on Small Area Estimation: [CSSS Short Course](files/CSSS20-Spatial.html).
-
 ## Courses at UW
 
 - BIOSTAT 512 Medical Biometry II
@@ -51,3 +37,18 @@ Materials from a short course Jon gave on Small Area Estimation: [CSSS Short Cou
 - *Bayesian SAE using Complex Survey Data*, Two-Day Course. PAA Annual Meeting, April 2018, co-taught with Zehang Richard Li and Sam Clark.
 - *Age-Period-Cohort Modeling and Analysis*, Summer Institute in Statistics for Clinical and Epidemiological Research, University of Washington, July 2019.
 - *Bayesian Small Area Estimation using Complex Data: Methods and Applications*, One-Day Course. CSSS 20th Anniversary Conference, UW, May 2019.
+
+## Old Lectures for a Short Course
+
+Lectures by Jon Wakefield and Richard Zehang Li on "Bayesian Subnational Estimation using Complex Survey Data":
+
+- Videos can be found [here](https://www.youtube.com/channel/UCV1SeTE9Qyk2_bhGBzSNZIg).
+- Lecture 1 (Jon): Overview, Motivation and Survey Sampling — [Slides](files/AV-SurveySampling.pdf).
+- Lecture 2 (Jon): Bayesian Inference and Smoothing Models — [Slides](files/AV-Smoothing.pdf).
+- Lecture 3 (Jon): Spatial Models for Survey Data — [Slides](files/AV-SAE.pdf).
+- Lecture 4 (Richard): Introduction to R — [Overview](https://zehangli.com/Subnational/RSession-1.pdf), [Analysis](https://zehangli.com/Subnational/RSession-1.html), [Codes](https://zehangli.com/Subnational/RSession-1.R).
+- Lecture 5 (Richard): Space-time Smoothing in R — [Overview](https://zehangli.com/Subnational/RSession-2.pdf), [Analysis](https://zehangli.com/Subnational/RSession-2.html), [Codes](https://zehangli.com/Subnational/RSession-2.R).
+- Lecture 6 (Richard): Case Study — Kenya 2014 DHS — [Overview](https://zehangli.com/Subnational/RSession-3.pdf), [Analysis](https://zehangli.com/Subnational/RSession-3.html), [Codes](https://zehangli.com/Subnational/RSession-3.R).
+
+Materials from a short course Jon gave on Small Area Estimation: [CSSS Short Course](files/CSSS20-Spatial.html).
+
