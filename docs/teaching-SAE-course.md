@@ -43,5 +43,5 @@ and time in a developing world context. SMMR, 28, 2614-2634](files/SAE-files/wak
 
 [Vignette for Dong, et al (2026). Toward a principled workflow for prevalence mapping using household survey data. Journal of Survey Statistics and Methodology, 14, 209–237](files/SAE-files/DongWorkflowVignette2026.pdf)
 
-[Additional Materials](https://sae4health.stat.uw.edu/)
+[Additional Materials at the sae4health website](https://sae4health.stat.uw.edu/)
 
