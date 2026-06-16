@@ -41,7 +41,7 @@ and time in a developing world context. SMMR, 28, 2614-2634](files/SAE-files/wak
 
 [Dong, Wu, Li, Wakefield (2026). Toward a principled workflow for prevalence mapping using household survey data. Journal of Survey Statistics and Methodology, 14, 209–237](files/SAE-files/DongWorkflow2026.pdf)
 
-[Vignette for Dong, Wu. Li, Wakefield (2026). Toward a principled workflow for prevalence mapping using household survey data. Journal of Survey Statistics and Methodology, 14, 209–237](files/SAE-files/DongWorkflow2026Vignette.pdf)
+[Vignette for Dong, Wu, Li, Wakefield (2026). Toward a principled workflow for prevalence mapping using household survey data. Journal of Survey Statistics and Methodology, 14, 209–237](files/SAE-files/DongWorkflow2026Vignette.pdf)
 
 [Wakefield, Gao, Fuglstad, Li (2026). The two cultures for prevalence mapping: small area estimation and model-based geostatistics, To appear (with discussion). Statistical Science](files/SAE-files/Two_Cultures-Main.pdf)
 
