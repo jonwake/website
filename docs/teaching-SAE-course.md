@@ -6,9 +6,9 @@ Small area estimation is of crucial importance in low- and middle-income countri
 
 *Short Course Slides*
 
-- Context and Motivation: [Slides](files/SAE-files/SAE-Motivation.pdf)
-- Introduction to Bayes: [Slides](files/SAE-files/SAE-Bayes.pdf)
-- Area-Level Models: [Slides](files/SAE-files/SAE-Area-Level-Models.pdf)
+- Lecture 1: Context and Motivation: [Slides](files/SAE-files/SAE-Motivation.pdf)
+- Lecture 2: Introduction to Bayes: [Slides](files/SAE-files/SAE-Bayes.pdf)
+- Lecture 3: Area-Level Models: [Slides](files/SAE-files/SAE-Area-Level-Models.pdf)
 
 
 *R Packages:*
@@ -37,6 +37,8 @@ When requesting specific datasets, remember to request the GPS data (locations o
 and time in a developing world context. SMMR, 28, 2614-2634](files/SAE-files/wakefieldetal19.pdf)
 
 [Wakefield, Ononek, Pedersen (2020). Small Area Estimation for disease prevalence mapping. International Statistical Review, 88, 398-418](files/SAE-files/wakefieldokonekpedersen20.pdf)
+
+[Dong, et al (2026). Toward a principled workflow for prevalence mapping using household survey data. Journal of Survey Statistics and Methodology, 14, 209–237](files/SAE-files/DongWorkflow2026.pdf)
 
 [Additional Materials](https://sae4health.stat.uw.edu/)
 
