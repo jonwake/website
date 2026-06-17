@@ -35,7 +35,7 @@ When requesting specific datasets, remember to request the GPS data (locations o
 *Papers:*
 
 [Wakefield, Fuglstad, Riebler, Godwin, Wilson, Clark (2019). Estimating under-five mortality in space
-and time in a developing world context. SMMR, 28, 2614-2634](files/SAE-files/wakefieldetal19.pdf)
+and time in a developing world context. Statistical Methods in Medical Research, 28, 2614-2634](files/SAE-files/wakefieldetal19.pdf)
 
 [Wakefield, Ononek, Pedersen (2020). Small Area Estimation for disease prevalence mapping. International Statistical Review, 88, 398-418](files/SAE-files/wakefieldokonekpedersen20.pdf)
 
