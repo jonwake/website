@@ -11,6 +11,7 @@ Small area estimation is of crucial importance in low- and middle-income countri
 - Lecture 3: Area-Level Models: [Slides](files/SAE-files/SAE-Area-Level-Models.pdf)
 - Lecture 4: Unit-Level Models: [Slides](files/SAE-files/SAE-Unit-Level-Models.pdf)
 - Lecture 5: Further Topics: [Slides](files/SAE-files/SAE-FurtherTopics.pdf)
+- Lecture 6: Further Topics: [Slides](files/SAE-files/SAE-Software.pdf)
 
 *R Packages:*
 
