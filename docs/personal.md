@@ -22,7 +22,7 @@ My sister, Samantha, was born in September 1966, and we got on very well togethe
 
 Dad was an only child and mum has one brother, Clive Dakin, who moved to New Zealand in 1970 and married Sue Milner. Clive passed away in May 2018. Clive and Sue had four kids: Phil, Mark, Steve and Rebecca.
 
-After leaving Leicester I spent 8 years in Nottingham, as a student and lecturer at Nottingham University. I then moved to London and spent 9 years there, before leaving for Seattle in 1999. Soon after arriving in Seattle I met Zoe Moodie, a prairie girl from Winnipeg. We married on July 25th, 2002 in St. John's, Newfoundland. My daughter Ellie was born in October 2004, and my son Eric in December 2007. Zoe's mum and dad, Pat and Ric Moodie, still live in Winnipeg, as does Pat's mum, Eleanor Andrews. Zoe's sister, Erica, married my best man Dave Stephens (who I've known since my Nottingham days). They married in August 2006, and now live in Montreal.
+After leaving Leicester I spent 8 years in Nottingham, as a student and lecturer at Nottingham University. I then moved to London and spent 9 years there, before leaving for Seattle in 1999. Soon after arriving in Seattle I met Zoe Moodie, a prairie girl from Winnipeg. We married on July 25th, 2002 in St. John's, Newfoundland. My daughter Ellie was born in October 2004, and my son Eric in December 2007. Zoe's mum and dad, Pat and Ric Moodie, still live in Winnipeg, as did Pat's mum, Eleanor Andrews. Zoe's sister, Erica, married my best man Dave Stephens (who I've known since my Nottingham days). They married in August 2006, and now live in Montreal.
 
 ## Personal Interests
 
