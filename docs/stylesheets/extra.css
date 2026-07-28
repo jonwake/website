@@ -307,6 +307,27 @@
 }
 [data-md-color-scheme="slate"] .wf-person__role { color: #BFC4D2; }
 
+/* Research interests / blurb under a person (STAB group page) */
+.wf-person__interests {
+  flex: 1 0 100%;
+  margin: 0.2rem 0 0;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--wf-ink);
+  opacity: 0.72;
+}
+[data-md-color-scheme="slate"] .wf-person__interests { color: #BFC4D2; }
+
+/* ===========================================================
+   Figures
+   =========================================================== */
+
+.md-typeset figure.wf-figure img {
+  border-radius: 6px;
+  box-shadow: 0 4px 14px rgba(31, 42, 68, 0.14);
+}
+
 /* ===========================================================
    Misc polish
    =========================================================== */

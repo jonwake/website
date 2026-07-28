@@ -43,6 +43,7 @@ nav:
     - Teaching: teaching.md
     - SAE Teaching: teaching-SAE-course.md
   - Impact: spatial-demography.md
+  - STAB Research Group: stab.md
   - Personal: personal.md
 
 markdown_extensions:

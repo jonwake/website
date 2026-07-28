@@ -44,5 +44,6 @@ I am a statistician working at the intersection of methodology and global health
 <li><a href="software/">Software</a></li>
 <li><a href="teaching/">Teaching</a></li>
 <li><a href="spatial-demography/">Impact</a></li>
+<li><a href="stab/">STAB Research Group</a></li>
 <li><a href="personal/">Personal</a></li>
 </ul>
