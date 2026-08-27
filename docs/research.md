@@ -377,7 +377,124 @@ Early demos, B-sides and remixes on arXiv: [here](https://arxiv.org/search/stat?
 
 ## Book: Bayesian and Frequentist Regression Methods
 
-Published by Springer, January 2013.
+<div class="book-links" markdown="1">
+*Bayesian and Frequentist Regression Methods* provides a modern account of both Bayesian and frequentist methods of regression analysis. Many texts cover one or the other of the approaches, but this is the most comprehensive combination of Bayesian and frequentist methods that exists in one place. The two philosophical approaches to regression methodology are featured here as complementary techniques, with theory and data analysis providing supplementary components of the discussion. In particular, methods are illustrated using a variety of data sets. The majority of the data sets are drawn from biostatistics but the techniques are generalizable to a wide range of other disciplines. While the philosophy behind each approach is discussed, the book is not ideological in nature and an emphasis is placed on practical application; it is shown that, in many situations, careful application of the respective approaches can lead to broadly similar conclusions. To use this text, the reader requires a basic understanding of calculus and linear algebra, and introductory courses in probability and statistical theory. The book is based on the author's experience teaching a graduate sequence in regression methods.
+
+An introductory chapter describes a number of motivating examples and discusses general issues that need consideration before a regression analysis is carried out. The book is then broken into four parts: I Inferential Approaches; II Independent Data; III Dependent Data; IV Nonparametric Modeling. Exercises reinforce the content of each chapter in the four parts of the book. The first two chapters of Part I provide general descriptions of the frequentist and Bayesian approaches to inference, with a particular emphasis on the rationale of each approach and a delineation of situations in which one or the other approach is preferable. The third chapter in Part I discusses model selection and hypothesis testing. Part II considers independent data and contains three chapters on linear models, general regression models (including generalized linear models) and binary data models. The two chapters of Part III consider dependent data with linear models and general regression models. Mixed models and generalized estimating equations are the approaches to inference that are emphasized. Part IV contains three chapters on nonparametric modeling with a concentration on spline and kernel methods. The examples and simulation studies of the text are almost exclusively carried out using the freely-available [R](https://www.r-project.org/) software.
+
+### Book Materials
+
+- Table of Contents: [BookContents.pdf](files/book/BookContents.pdf)
+- Front and Back Cover: [BookCoverFinal.pdf](files/book/BookCoverFinal.pdf)
+- The Inevitable Errata: [Errata.pdf](files/book/Errata.pdf)
+
+### Purchasing Information
+
+You can purchase the hard copy or ebook from [Springer](https://link.springer.com/book/10.1007/978-1-4419-0925-1), or from [Amazon](https://www.amazon.com/Bayesian-Frequentist-Regression-Springer-Statistics/dp/1441909249).
+
+### Reviews
+
+- [Ray Carroll's review](files/book/RayCarrollReview.pdf)
+- [Peter Diggle's review](files/book/PeterDiggleReview.pdf)
+- [Larry Wasserman's review](files/book/LarryWassermanReview.pdf)
+- [Taeryon Choi's review](files/book/JABESreview.pdf) for the *Journal of Agricultural, Biological and Environmental Statistics*
+- [Andrew Gelman's review](files/book/AndrewGelmanReview.pdf) for *Statistics in Medicine*
+- [Jonathan Gillard's review](files/book/Gillard-2015-RSS-A.pdf) for the *Journal of the Royal Statistical Society, Series A*
+
+### R Code for All Analyses and Figures
+
+**Chapter 1: Introduction**
+
+- [R code](files/book/introduction.R)
+- Minnesota Lung Cancer Data: [MNlung.txt](files/book/MNlung.txt), [MNradon.txt](files/book/MNradon.txt)
+- Spinal Bone Mineral Density Data: [spinalbonedata.txt](files/book/spinalbonedata.txt)
+
+#### Part I: Inferential Approaches
+
+**Chapter 2: Frequentist Inference**
+
+- [R code](files/book/frequentist.R)
+- Minnesota Lung Cancer Data: [MNlung.txt](files/book/MNlung.txt), [MNradon.txt](files/book/MNradon.txt)
+
+**Chapter 3: Bayesian Inference**
+
+- [R code](files/book/bayesian.R)
+- Minnesota Lung Cancer Data: [MNlung.txt](files/book/MNlung.txt), [MNradon.txt](files/book/MNradon.txt)
+
+**Chapter 4: Hypothesis Testing**
+
+- [R code](files/book/modelform.R)
+- Gene expression "pseudo" data (the real data cannot be publicly shared): [GeneSamp1.txt](files/book/GeneSamp1.txt), [GeneSamp2.txt](files/book/GeneSamp2.txt)
+
+#### Part II: Independent Data
+
+**Chapter 5: Linear Models**
+
+- [R code](files/book/linear.R)
+- Dyestuff Data: [dye.txt](files/book/dye.txt)
+
+**Chapter 6: General Regression Models**
+
+- [R code](files/book/general.R)
+- [R code for pharmacokinetic analyses](files/book/PKall.R)
+- [R code for pharmacokinetic contour plots](files/book/PKcontours.R)
+- Scottish Lip Cancer Data: [scotlip.txt](files/book/scotlip.txt)
+- Minnesota Lung Cancer Data: [MNlung.txt](files/book/MNlung.txt), [MNradon.txt](files/book/MNradon.txt)
+
+**Chapter 7: Binary Data Models**
+
+- [R code](files/book/binary.R)
+- BPD and Birthweight Data: [birthweight.txt](files/book/birthweight.txt)
+
+#### Part III: Dependent Data
+
+**Chapter 8: Linear Models**
+
+- [R code](files/book/linear2.R)
+- WinBUGS code for Dental Example: [DentalWinBUGSGirls.txt](files/book/DentalWinBUGSGirls.txt)
+- Reduced Dental Dataset: [dental-reduced.txt](files/book/dental-reduced.txt)
+- WinBUGS code for Dental Example with Reduced Dataset: [DentalWinBUGSReduced.txt](files/book/DentalWinBUGSReduced.txt)
+- FEV Data: [fev.txt](files/book/fev.txt) — the variables are ID, smoker (1 = current, 0 = former smoker), times from baseline (years), FEV1
+- WinBUGS code for FEV Example: [fevWinBUGS.txt](files/book/fevWinBUGS.txt)
+
+**Chapter 9: General Regression Models**
+
+- [R code](files/book/general2.R)
+- Contraception Data: [contracept.txt](files/book/contracept.txt) — the variables are ID, dose, time, response (experience amenorrhea)
+- Seizure Data: [seizure.txt](files/book/seizure.txt)
+- WinBUGS code for Seizure Example: [SeizureWinBUGS.txt](files/book/SeizureWinBUGS.txt)
+- Minnesota Lung Cancer Data and graph file (for use with INLA): [MNlung.txt](files/book/MNlung.txt), [MNradon.txt](files/book/MNradon.txt), [MN_county.graph](files/book/MN_county.graph)
+- Minnesota Spatial Analysis R code: [MNlungSpatial.R](files/book/MNlungSpatial.R)
+- Minnesota Lung Cancer Shapefiles: [MNlung.shx](files/book/MNlung.shx), [MNlung.shp](files/book/MNlung.shp), [MNlung.prj](files/book/MNlung.prj), [MNlung.dbf](files/book/MNlung.dbf)
+- WinBUGS code for Contraception Data Example: [ContraceptWinBUGS.txt](files/book/ContraceptWinBUGS.txt)
+- WinBUGS code for Theophylline Data Example: [TheophWinBUGS.txt](files/book/TheophWinBUGS.txt)
+- Samples to demonstrate the flip-flop phenomenon in Fig 9.11: [betachain1.txt](files/book/betachain1.txt), [betachain2.txt](files/book/betachain2.txt)
+- Samples from lognormal and power models to produce residual plots Fig 9.13(c)–(f): [TheophWinBUGSLognormalOut.txt](files/book/TheophWinBUGSLognormalOut.txt), [TheophWinBUGSPowerOut.txt](files/book/TheophWinBUGSPowerOut.txt)
+- Samples of parameters from power models to produce plot Fig 9.14: [WinBUGSsigma0.txt](files/book/WinBUGSsigma0.txt), [WinBUGSsigma1.txt](files/book/WinBUGSsigma1.txt), [WinBUGSgamma.txt](files/book/WinBUGSgamma.txt)
+- Samples of parameters to produce plot Fig 9.15: [WinBUGSClmed.txt](files/book/WinBUGSClmed.txt), [WinBUGSkamed.txt](files/book/WinBUGSkamed.txt), [WinBUGSkemed.txt](files/book/WinBUGSkemed.txt)
+- Illiteracy data that are analyzed in Exercise 9.5: [illiteracy.xls](files/book/illiteracy.xls)
+
+#### Part IV: Nonparametric Modeling
+
+**Chapter 10: Preliminaries for Nonparametric Modeling**
+
+- [R code](files/book/nonparametric1.R)
+- BPD and Birthweight Data: [birthweight.txt](files/book/birthweight.txt)
+
+**Chapter 11: Spline and Kernel Methods**
+
+- [R code](files/book/nonparametric2.R)
+- Spinal Bone Mineral Density Data: [spinalbonedata.txt](files/book/spinalbonedata.txt)
+- BPD and Birthweight Data: [birthweight.txt](files/book/birthweight.txt)
+- Cosmic Microwave Background Data: [cosmicmicrowave.txt](files/book/cosmicmicrowave.txt)
+
+**Chapter 12: Nonparametric Regression with Multiple Predictors**
+
+- [R code](files/book/nonparametric3.R)
+- BPD and Birthweight Data: [birthweight.txt](files/book/birthweight.txt)
+- Iris Data: [iris.txt](files/book/iris.txt)
+
+</div>
 
 ## Funding
 

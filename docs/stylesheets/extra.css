@@ -382,3 +382,10 @@
     margin: 0 auto;
   }
 }
+
+/* ===========================================================
+   Underline links within the regression-methods book section
+   =========================================================== */
+.md-typeset .book-links a {
+  text-decoration: underline;
+}
