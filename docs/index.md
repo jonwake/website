@@ -12,7 +12,7 @@ hide:
 
 # Jon Wakefield
 
-<div class="wf-hero__title" markdown>Professor of Statistics, University of British Columbia</div>
+<div class="wf-hero__title" markdown>Eddie Goldenberg Research Chair, University of British Columbia</div>
 
 <p class="wf-hero__meta" markdown>
 **Department** &nbsp; Statistics &nbsp;|&nbsp; **University of British Columbia, Vancouver**<br>
