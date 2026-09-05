@@ -12,7 +12,7 @@ hide:
 
 # Jon Wakefield
 
-<div class="wf-hero__title" markdown>Eddie Goldenberg Research Chair, University of British Columbia</div>
+<div class="wf-hero__title" markdown>[Eddie Goldenberg Research Chair](https://science.ubc.ca/news/2026-08/eddie-goldenberg-research-chairs-brings-three-world-leading-researchers-ubc-science), University of British Columbia</div>
 
 <p class="wf-hero__meta" markdown>
 **Department** &nbsp; Statistics &nbsp;|&nbsp; **University of British Columbia, Vancouver**<br>
