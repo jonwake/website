@@ -12,10 +12,10 @@ hide:
 
 # Jon Wakefield
 
-<div class="wf-hero__title" markdown>Professor of Statistics and Biostatistics, University of Washington</div>
+<div class="wf-hero__title" markdown>Professor of Statistics, University of British Columbia</div>
 
 <p class="wf-hero__meta" markdown>
-**Departments** &nbsp; Statistics · Biostatistics &nbsp;|&nbsp; **University of Washington, Seattle**<br>
+**Department** &nbsp; Statistics &nbsp;|&nbsp; **University of British Columbia, Vancouver**<br>
 **Find me on** &nbsp; [Google Scholar](https://scholar.google.ca/citations?hl=en&user=bM2nnC8AAAAJ) · [arXiv](https://arxiv.org/search/stat?searchtype=author&query=Wakefield,+J)
 </p>
 
