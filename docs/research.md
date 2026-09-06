@@ -500,6 +500,8 @@ You can purchase the hard copy or ebook from [Springer](https://link.springer.co
 
 My research support includes the following:
 
-- NIH/NCI R01: Spatio-Temporal Epidemiology: Methods and Applications (PI: Jon Wakefield)
+- Canadian Government, provides funding for the Eddie Goldenberg Chair
+- NIH R01: Bayesian Mortality Estimation from Disparate Data Sources (PI: Jon Wakefield)
+- Gates Foundation (PI: Jon Wakefield)
 - NIH/NIAID R01: Statistical Issues in AIDS Research (PI: Jim Hughes)
-- NIH/NIGMS U54: Center for Statistics and Quantitative Diseases (PI: Betz Halloran)
+
