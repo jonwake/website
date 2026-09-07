@@ -43,7 +43,7 @@
 ## Graduated PhD Students
 
 1. **Alana McGovern**,2026, Department of Statistics, University of Washington. "Bayesian Small Area Estimation Methods for Sparse Complex Survey Data." 
-2. **Ameer Dharamshi**,2026, Department of Biostatistics, University of Washington. "". [Assistant Professor in the Department of Mathematics and Statistics at McGill University](https://ameerd.github.io/). Jointly advised with Daniela Witten.
+2. **Ameer Dharamshi**,2026, Department of Biostatistics, University of Washington. "Inference after Selection and Prediction". [Assistant Professor in the Department of Mathematics and Statistics at McGill University](https://ameerd.github.io/). Jointly advised with Daniela Witten.
 3. **Victoria Knutson**,2025, Department of Biostatistics, University of Washington. "Statistical Methods for Excess Mortality Estimation with Variable Data Availability and Completeness". [Postdoctoral Research Scientist, Department of Statistics, University of Washington](https://victoriaknutson.github.io/).
 4. **Ziyu (Alex) Jiang**, 2025, Department of Statistics, University of Washington. "Bayesian Nonparametric Methods for Complex Datasets." [Postdoctoral Research Scientist at Columbia University.](https://alexjiang1125.github.io/)
 5. **Yunhan Wu**, 2025, Department of Biostatistics, University of Washington. "Methods and Software for Small Area Estimation in Low- and Middle-Income Countries." [Postdoctoral Research Associate at Oak Ridge National Laboratory.](https://wu-thomas.github.io/)
