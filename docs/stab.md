@@ -102,6 +102,19 @@ The STAB research group meets weekly at the Hans Rosling Center for Population H
 
 Meeting times vary each academic quarter based on members' availability. In the Spring 2026 quarter, meetings are held on Tuesdays 12pm–1pm PST.
 
+### Autumn Quarter, 2026
+
+| Date | Presenter | Affiliation | Topic |
+| -----| ------------------------| ---------------------------- | ---------------|
+| 10/05 | Jon Wakefield | UBC | STAB and sae4health research overview and updates |
+| 10/12 | Lucia Hug | UN-IGME | UN-IGME U5MR methodology updates |
+| 10/19 | Serge Aleshin-Guendel | US Census Bureau | SAE work at the Center for Statistical Research and Methodology at the United States Census Bureau |
+| 10/26 | Paul Andres Corral Rodas | World Bank | SAE and survey-to-survey prediction at the World Bank |
+| 11/02 | None | | STAB group updates |
+| 11/09 | Nazim Gashi | UNICEF | Work being done under MICS GIS |
+| 11/16 | Emily Berg | Iowa State University | SAE methodology work and combining probability/non-probability samples |
+
+
 ### Spring Quarter, 2026
 
 | Date | Presenter | Affiliation | Topic |
