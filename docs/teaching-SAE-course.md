@@ -1,4 +1,4 @@
-# SAE Short Course
+# Bucharest SAE Short Course
 
 *Course summary for SAE Conference Short Course, Bucharest June 19, 2026*
 

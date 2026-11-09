@@ -2,7 +2,9 @@
 
 ## SAE Course 
 
-[SAE Course Materials](teaching-SAE-course.md)
+[Bucharest SAE Short Course Materials](teaching-SAE-course.md)
+
+[CEMA SAE Short Course Materials](teaching-CEMA-SAE-course.md)
 
 ## Courses at UW
 
