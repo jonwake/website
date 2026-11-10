@@ -6,7 +6,12 @@ Small area estimation is of crucial importance in low- and middle-income countri
 
 *Short Course Slides*
 
-- Overview & Schedule: Context and Motivation: [Slides](files/SAE-files/SAE-CEMA-Motivation-2026.pdf)
+- Overview & Schedule / Context and Motivation: [Slides](files/SAE-files/SAE-CEMA-Motivation-2026.pdf)
+- Pre-modeled app: [Slides](files/SAE-files/sae4lmic-website.pdf)
+- Survey sampling: [Slides](files/SAE-files/SAE-CEMA-SurveySampling-2026.pdf)
+- Weighted estimation/summarizing uncertainty: [Slides](files/SAE-files/SAE-CEMA-WeightedSummarization-2026.pdf)
+- Weighted estimation in the DHS app: [Slides](files/SAE-files/sae4health-app-workshop.pdf)
+- Bayesian smoothing: [Slides](files/SAE-files/SAE-CEMA-BayesianSmoothing-2026.pdf)
 
 More to be uploaded.
 
