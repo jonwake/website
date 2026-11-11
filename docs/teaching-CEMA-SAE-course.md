@@ -12,6 +12,11 @@ Small area estimation is of crucial importance in low- and middle-income countri
 - Weighted estimation/summarizing uncertainty: [Slides](files/SAE-files/SAE-CEMA-WeightedSummarization-2026.pdf)
 - Weighted estimation in the DHS app: [Slides](files/SAE-files/sae4health-app-workshop.pdf)
 - Bayesian smoothing: [Slides](files/SAE-files/SAE-CEMA-BayesianSmoothing-2026.pdf)
+- Fay-Herriot models, Basic: [Slides](files/SAE-files/SAE-CEMA-AreaLevelModels-2026.pdf)
+- Fay-Herriot models, Advanced: [Slides](files/SAE-files/SAE-CEMA-AreaLevelModels-Advanced-2026.pdf)
+- Use of AI in software development: [Slides](files/SAE-files/sae4health-ai-in-research.pdf)
+- Fay-Herriot covariate modeling with the DHS app: [Slides](files/SAE-files/sae4health-covariates.pdf)
+
 
 More to be uploaded.
 
