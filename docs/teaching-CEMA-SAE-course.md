@@ -22,8 +22,8 @@ More to be uploaded.
 
 *Short Course Slides*
 
--Kenya County Covariates: [Data](files/SAE-files/Kenya_Admin_1_cov.csv)
--Kenya Sub-County Covariates: [Data](files/SAE-files/Kenya_Admin_2_cov_eduyrs.csv)
+- Kenya County Covariates: [Data](files/SAE-files/Kenya_Admin_1_cov.csv)
+- Kenya Sub-County Covariates: [Data](files/SAE-files/Kenya_Admin_2_cov_eduyrs.csv)
 
 *R Packages:*
 
