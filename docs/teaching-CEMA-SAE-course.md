@@ -20,6 +20,11 @@ Small area estimation is of crucial importance in low- and middle-income countri
 
 More to be uploaded.
 
+*Short Course Slides*
+
+-Kenya County Covariates: [Data](files/SAE-files/Kenya_Admin_1_cov.csv)
+-Kenya Sub-County Covariates: [Data](files/SAE-files/Kenya_Admin_2_cov_eduyrs.csv)
+
 *R Packages:*
 
 [surveyPrev](https://cran.r-project.org/web/packages/surveyPrev/index.html) with [vignette on prevalence mapping](https://cran.r-project.org/web/packages/surveyPrev/vignettes/vignette-main.html) and [vignette on creating indicators](https://cran.r-project.org/web/packages/surveyPrev/vignettes/vignette-data-preparation.html)
