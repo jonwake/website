@@ -20,7 +20,7 @@ Small area estimation is of crucial importance in low- and middle-income countri
 
 More to be uploaded.
 
-*Short Course Slides*
+*Covariate Datasets*
 
 - Kenya County Covariate - Elevation: [Data](files/SAE-files/Kenya_Admin_1_cov_elevation.csv)
 - Kenya County Covariate - ITN Access: [Data](files/SAE-files/Kenya_Admin_1_cov_itn_access.csv)
