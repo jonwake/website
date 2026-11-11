@@ -22,8 +22,13 @@ More to be uploaded.
 
 *Short Course Slides*
 
-- Kenya County Covariates: [Data](files/SAE-files/Kenya_Admin_1_cov.csv)
-- Kenya Sub-County Covariates: [Data](files/SAE-files/Kenya_Admin_2_cov_eduyrs.csv)
+- Kenya County Covariate - Elevation: [Data](files/SAE-files/Kenya_Admin_1_cov_elevation.csv)
+- Kenya County Covariate - ITN Access: [Data](files/SAE-files/Kenya_Admin_1_cov_itn_access.csv)
+- Kenya County Covariate - Lowest Wealth Quintile: [Data](files/SAE-files/Kenya_Admin_1_cov_lowest_wealth_quintile.csv)
+- Kenya County Covariate - NDVI: [Data](files/SAE-files/Kenya_Admin_1_cov_ndvi.csv)
+- Kenya County Covariate - Precipitation: [Data](files/SAE-files/Kenya_Admin_1_cov_prec.csv)
+- Kenya County Covariate - Temperature: [Data](files/SAE-files/Kenya_Admin_1_cov_temp.csv)
+- Kenya Sub-County Covariate - Average Education Years: [Data](files/SAE-files/Kenya_Admin_2_cov_eduyrs.csv)
 
 *R Packages:*
 
