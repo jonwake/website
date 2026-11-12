@@ -16,7 +16,7 @@ Small area estimation is of crucial importance in low- and middle-income countri
 - Fay-Herriot models, Advanced: [Slides](files/SAE-files/SAE-CEMA-AreaLevelModels-Advanced-2026.pdf)
 - Use of AI in software development: [Slides](files/SAE-files/sae4health-ai-in-research.pdf)
 - Fay-Herriot covariate modeling with the DHS app: [Slides](files/SAE-files/sae4health-covariates.pdf)
-- Unit-level models: [Slides](files/SAE-files/SAE-CEMA-UnitLevelModels-Advanced-2026.pdf)
+- Unit-level models: [Slides](files/SAE-files/SAE-CEMA-UnitLevelModels-2026.pdf)
 - Overview of computing: [Slides](files/SAE-files/software-overview-CEMA-2026.pdf)
 - Building the apps: [Slides](files/SAE-files/sae4health-platforms-tech.pdf)
 - Model extensions: [Slides](files/SAE-files/SAE-CEMA-Extensions-2026.pdf)
